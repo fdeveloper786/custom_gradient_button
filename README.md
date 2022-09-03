@@ -11,29 +11,42 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A custom_gradient_button is easy to use package which allows the applications that requires the button with the Gradient color.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Set First and Second color and see the Button with Gradient.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add custom_gradient_button as a dependency in your pubspec.yaml file.
+
+dependencies:
+  ...
+    custom_gradient_button: ^0.0.1
+
+Now in your Dart code, you can use:
+import 'package:custom_gradient_button/custom_gradient_button.dart';
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
+            CustomGradientButton(
+              height: 50.0,
+              width: 200.0,
+              firstColor: Colors.indigo,
+              secondColor: Colors.cyan,
+              child: Text(
+                'Custom Gradient Button',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.w400),
+              ),
+              method: () {
+                print('This is custom gradient');
+              },
+            ),
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+We’d be really happy if you send us links to your projects where you use our component. Just send an email to fdeveloper786@gmail.com And do let us know if you have any questions or suggestion regarding our work.
