@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.1 2022-09-03
 
-* TODO: Describe initial release.
+* This package is used for gradient button. You can use any type of gradient by your own choice.

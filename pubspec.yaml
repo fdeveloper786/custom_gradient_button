@@ -1,7 +1,8 @@
 name: custom_gradient_button
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+author: Jawed Ahmad<fdeveloper786@gmail.com>
+homepage: https://github.com/fdeveloper786/custom_gradient_button
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
